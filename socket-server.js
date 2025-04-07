@@ -9,7 +9,7 @@ const messages = [];
 // Create Socket.io server
 const io = new Server({
   cors: {
-    origin: ["http://localhost:3000","https://chatapp3-tau.vercel.app"],
+    origin: ["http://localhost:3000","https://chatapp3-tau.vercel.app","https://chatmoke.netlify.app"],
     methods: ["GET", "POST"],
     credentials: true
   }
