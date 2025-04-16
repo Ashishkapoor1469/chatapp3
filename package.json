@@ -6,8 +6,8 @@
     "dev": "concurrently \"next dev\" \"npm run socket\"",
     "socket": "node socket-server.js",
     "dev:full": "concurrently \"npm run dev\" \"npm run socket\"",
-    "build": "concurrently \"next build\" \"npm run socket\"",
-    "start": "next start",
+    "build": "next build",
+    "start": "concurrently \"next start\" \"npm run socket\"",
     "lint": "next lint"
   },
   "dependencies": {
